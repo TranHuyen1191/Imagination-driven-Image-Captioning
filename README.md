@@ -1,3 +1,3 @@
 # Imagination-driven-Image-Captioning
 
-The source code will be released soon. 
+Dataset and source code will be released soon. 

@@ -7,16 +7,14 @@ conda env create -f environment.yml
 ```
 
 ## Create dataset 
- ```Console
-mv CreateDB_Script/* .
-```
  __Run the scripts in CreateDB_Script folder to create IdC-I and -II and pre-process ArtEmis dataset. These datasets will be used to train and test CScorer and image captioning model in the following steps.__
 
-   1. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_1IdCI.ipynb) to extract imagination-driven captions from ArtEmis dataset to create IdC-I.
-   2. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_2IdCII_TypeII.ipynb) and [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_2IdCII_TypeII_AddText.ipynb) to create fake captions of Type-II. 
-   3. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_3IdCII_3type.ipynb) to create fake captions of Type-I and Type-III.
-   4. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_4ArtEmisFromIdC.ipynb) to pre-process and split ArtEmis dataset into training, validation, and test sets. 
-   5. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_5ArtEmis_CreateGT_LCIdC.ipynb) to split the test set into ArtEmis-LC-TS and ArtEmis-IdC-I-TC. 
+   1. mv CreateDB_Script/* .
+   2. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_1IdCI.ipynb) to extract imagination-driven captions from ArtEmis dataset to create IdC-I.
+   3. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_2IdCII_TypeII.ipynb) and [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_2IdCII_TypeII_AddText.ipynb) to create fake captions of Type-II. 
+   4. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_3IdCII_3type.ipynb) to create fake captions of Type-I and Type-III.
+   5. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_4ArtEmisFromIdC.ipynb) to pre-process and split ArtEmis dataset into training, validation, and test sets. 
+   6. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_5ArtEmis_CreateGT_LCIdC.ipynb) to split the test set into ArtEmis-LC-TS and ArtEmis-IdC-I-TC. 
 
 Datasets can be downloaded at [dataset-link](https://drive.google.com/file/d/1ntsERIJ0gri6om84-cCrpgHe0o9M7SU_/view?usp=sharing), [image-224px-link](), and [image-384px-link]().
 Note: Image folders (i.e., CLIP_224 and CLIP_384) should be saved to Dataset/ArtEmis/OriginalArtEmis/Images

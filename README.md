@@ -16,7 +16,7 @@ conda env create -f environment.yml
    5. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_4ArtEmisFromIdC.ipynb) to pre-process and split ArtEmis dataset into training, validation, and test sets. 
    6. Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/CreateDB_Script/CreateDB_5ArtEmis_CreateGT_LCIdC.ipynb) to split the test set into ArtEmis-LC-TS and ArtEmis-IdC-I-TC. 
 
-Datasets can be downloaded at [dataset-link](https://drive.google.com/file/d/1ntsERIJ0gri6om84-cCrpgHe0o9M7SU_/view?usp=sharing), [image-224px-link](), and [image-384px-link]().
+Datasets can be downloaded at [dataset](https://drive.google.com/file/d/1ntsERIJ0gri6om84-cCrpgHe0o9M7SU_/view?usp=sharing), [image-224px](https://drive.google.com/file/d/1e3839HoYixWAHVIPXNVUqcJzrxAxHVGU/view?usp=sharing), and image-384px:[url1](https://drive.google.com/file/d/1mikvHZ9ZEOYeZPNX6_hT5hqflXXs2shP/view?usp=sharing),[url2](https://drive.google.com/file/d/1pzSVtmmzzSMB1diXA7XguekF2kT_Bfuh/view?usp=sharing),[url3](https://drive.google.com/file/d/1qPcCA5cg6lyOSiL_KG2H99TNn2OkTgyX/view?usp=sharing),[url4](https://drive.google.com/file/d/1733zZPTluYPID7qtsup0-x1ZDo7ed6pP/view?usp=sharing),[url5](https://drive.google.com/file/d/1--sdlmlMoM56jaEESbGwRJCm2BdKP4jw/view?usp=sharing),[url6](https://drive.google.com/file/d/1LgOycT8b8NvnL5m93ncYgWebfS1_A-0X/view?usp=sharing),[url7](https://drive.google.com/file/d/1bAIBpoCnKxb4SZipb2sk6AtfKGwpeFhz/view?usp=sharing),[url8](https://drive.google.com/file/d/1AXs6_kDjEU0Z3iSnMB9hijcN6zArUl72/view?usp=sharing).
 Note: Image folders (i.e., CLIP_224 and CLIP_384) should be saved to Dataset/ArtEmis/OriginalArtEmis/Images
 
 ## Training 

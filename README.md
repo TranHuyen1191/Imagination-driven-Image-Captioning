@@ -21,15 +21,15 @@ Note: Image folders (i.e., CLIP_224 and CLIP_384) should be saved to Dataset/Art
 
 ## Training 
 ### CScorer
-  * __Train__: Run Metric_adapterCLIP_1FineTune_3MLP.py to fine-tune CLIP.__
+  * __Train__: Run Metric_adapterCLIP_1FineTune_3MLP.py to fine-tune CLIP.
      ```Console
     mv CreateDB_Script/Metric_adapterCLIP* .
     python Metric_adapterCLIP_1FineTune_3MLP.py
     ```
-  * __Evaluation__: Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/ModelEvaluation_Script/Metric_adapterCLIP_2Eval_3MLP.ipynb) to evaluate the accuracy of CScorer.__
+  * __Evaluation__: Run the [notebook](https://github.com/TranHuyen1191/Imagination-driven-Image-Captioning/blob/main/ModelEvaluation_Script/Metric_adapterCLIP_2Eval_3MLP.ipynb) to evaluate the accuracy of CScorer.
 
 ### Image captioning models: 1GEN and 2GEN
-  * __Train__: Run Model_ArtEmis_Ours_1GEN2GEN_1Train.py to train the model.__
+  * __Train__: Run Model_ArtEmis_Ours_1GEN2GEN_1Train.py to train the model.
     - 1GEN: modelname = 'CLIPViTB16_1Gen' 
     - 2GEN: modelname = 'CLIPViTB16_woSG' 
      ```Console
